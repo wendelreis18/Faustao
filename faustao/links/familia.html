@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+</style>
+<body>
+    <section>
+    <main>
+<h1>Familia</h1>
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="familia.html">Familia</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="linha_do_tempo.html">Linha do tempo</a></li>
+            </ul>
+        </nav>
+        </div>    
+    </main><br><br><br>
+    <input class="botão" type="button" value="Tira Ex" onclick= "TiraEx()"/>
+        <div class="linha">
+            <div class="coluna-33">
+                <h1>FILHO</h1>
+                <p>Laura Silva nasceu em Fortaleza no dia 19 de setembro de 2001, João Guilherme, 
+                    que veio ao mundo em janeiro de 2004, e Rodrigo, nascido em 2008.<br>
+                <img src="../imagens/familia/esposa-filho.png" alt="Esposa e Filho" width="50%" height="33%">
+                <img src="../imagens/familia/filho-de-faustao.png" alt="Esposa e Filho" width="50%" height="33%">
+                <img src="../imagens/familia/fauto-mataleao.png" alt="Esposa" width="50%" height="33%">
+                </p>
+            </div>
+            <div class="coluna-33">
+                <h1 class="Ex">EX</h1>
+                <p id="Ex">Fausto foi casado com a ex-modelo e artista plástica Magda Collares por 10 anos, 
+                    e teve uma filha com ela.<br>
+                    <img src="../imagens/ex/claudiaraia.png" alt="Esposa e Filho" width="50%" height="33%">
+                    <img src="../imagens/familia/ex-Magda Colares.png" alt="Esposa" width="50%" height="33%">
+                    <img src="../imagens/ex/xuxa.png" alt="Esposa" width="50%" height="33%">
+                    </p>
+            </div>
+            <div class="coluna-33">
+                <h1>ATUAL</h1>
+                <p>Fausto Silva é casado com Luciana Cardoso, com quem tem dois filhos.<br>
+                    <img src="../imagens/familia/esposa.png" alt="Esposa" width="50%" height="33%">
+                    <img src="../imagens/familia/fauto esposa.png" alt="Fausto e Esposa" width="50%" height="33%">
+                </p>
+            </div>
+          </div>
+</section>
+</body>
+<footer>
+ <input class="botão" type="button" value="Volta EX" onclick="VoltaEx()"> 
+
+</footer>
+<script>
+
+    function TiraEx() {
+        document.getElementById("Ex").style.display = "none"
+    } 
+    function VoltaEx() {
+        document.getElementsByClassName("Ex")[0].innerHTML="GLU GLU IE IE!!! PEGADINHA DOS MANOS... Deu sorte as Exs nao vao voltar... kkkkkkkkkkkk..."
+    }  
+
+</script>
+
+</html>

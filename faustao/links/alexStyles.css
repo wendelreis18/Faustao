@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+@font-face {
+    font-family: rockstar;
+    src: url(../rockstar_4/Rockstar-ExtraBold.otf);
+}
+#menu ul{
+    padding: 5px;
+    margin: 0px;
+    list-style:none;
+    border-radius: 5px;
+    }
+    #menu ul li{
+        display: inline;
+   
+    }
+    #menu ul li a{
+        display: inline-flex;
+       padding: 10px 30px;
+       background:linear-gradient(180deg, rgba(15, 37, 230, 0.8) 0%, rgba(115, 179, 255, 0.8) 42.19%, rgba(115, 179, 255, 0.8) 67.19%, rgba(15, 37, 230, 0.8) 100%);
+       color:yellow;
+       text-decoration:none;
+       border-bottom: 5px solid yellow;
+       font-size: 30px;
+       border-radius: 5px;
+       font-family: rockstar;
+    }
+    #menu ul li a:hover{
+       background-color: cyan;
+       color: black;
+       border-bottom: 3px solid #0F25E6;
+    }
+main{
+    text-align: center;
+    list-style:inside;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg,blue,#0d92a1);
+    background-size: 400%, 400%;
+    position: relative;
+    animation: change 2s ease-in-out infinite;
+}
+h1 {
+    font-size: 3rem;
+    font-family: rockstar;
+    color: yellow;
+}
+p {
+    font-size: 2rem;
+    font-style: comic;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+}
+#video{ 
+    display: center; 
+    margin: center; 
+}
+
+p{
+    font-family: rockstar;
+    color: chartreuse;
+}
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
